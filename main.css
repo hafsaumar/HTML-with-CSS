@@ -1,20 +1,64 @@
 p {
-  color: black;
+  color: #57188E;
   font-size: 18px;
+  font-family: "Century";
+  line-height: 150%;
+    margin-left: 5%;
+}
+body{
+  background-color: plum;
+  color: #57188E;
+  background-image: url(background.jpg);
+    background-repeat: repeat-y;
+    background-position: top;
+    font-family: "Century";
+
 }
 
+ul{
+  color: indigo;
+  font-style: italic;
+}
+ol{
+  font-family: Century;
+}
+a:link{
+    color: blueviolet;
+    text-decoration: none;
+}
+a:visited{
+    color: blueviolet;
+}
+a:hover{
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+}
+table{
+  border-color: darkmagenta;
+}
 h1{
   color: blueviolet;
+    padding : 20px;
+  font-family: "Century";
+    border-color: blue;
+    border-width: 3px;
+    border-style: dashed;
 }
-
+img{
+    margin-right: 5%;
+}
 h2{
   color: blueviolet;
+  font-family: "Century";
 }
 
 h3{
   color: blueviolet;
+  font-family: "Century";
 }
 
 h4{
   color: blueviolet;
+  font-family: "Century";
 }

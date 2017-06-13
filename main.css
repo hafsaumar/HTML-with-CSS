@@ -6,9 +6,9 @@ p {
     margin-left: 5%;
 }
 body{
-  background-color: plum;
+  background-color: lavender;
   color: #57188E;
-  background-image: url(background.jpg);
+  /*background-image: url(background.jpg);*/
     background-repeat: repeat-y;
     background-position: top;
     font-family: "Century";
@@ -17,7 +17,10 @@ body{
 
 ul{
   color: indigo;
-  font-style: italic;
+    list-style-type: disc;
+    padding:10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 ol{
   font-family: Century;
@@ -35,6 +38,7 @@ a:hover{
     text-decoration: underline;
 }
 table{
+    border: 2px solid darkmagenta;
   border-color: darkmagenta;
 }
 h1{
@@ -47,18 +51,16 @@ h1{
 }
 img{
     margin-right: 5%;
+    position: fixed;
+    left: 1070px;
+    border: 2px solid blue;
+    max-height: 200px;
+    max-width: 200px;
 }
-h2{
+h2, h3, h4 {
   color: blueviolet;
   font-family: "Century";
 }
-
-h3{
-  color: blueviolet;
-  font-family: "Century";
-}
-
-h4{
-  color: blueviolet;
-  font-family: "Century";
+span{
+    font-weight: bold;
 }

@@ -1,0 +1,46 @@
+<html>
+<head>
+    <style type="text/css">
+
+    </style>
+</head>
+<body>
+<h1>Forms in HTML learning Example</h1>
+<form >
+    Name: <input type="text" name="name" size ="50" title="Enter you Name here" />
+    <br />
+    Male: <input type="radio" name="gender" value="male" />
+    Female:<input type="radio" name="gender" value="female" />
+    <br />
+    <p>Select What type of Apartment you want:</p>
+    Room is shared apartment<input type="checkbox" name="typeofapartment" value="shared" />
+    studio<input type="checkbox" name="typeofapartment" value="studio" />
+    family apartment<input type="checkbox" name="typeofapartment" value="family" />
+    3+ rooms apartment<input type="checkbox" name="typeofapartment" value="rooms" />
+    <br />
+    <p> Select the City: </p>
+    <select name="city" >
+        <option value="helsinki">
+            helsinki
+        </option>
+        <option value="Tampere">
+            Tampere
+        </option>
+        <option value="Espoo">
+            Espoo
+        </option>
+        <option value="Turku">
+            Turku
+        </option>
+    </select>
+    <p>Tell us about your self:</p>
+    <textarea name="requirements" rows="8" cols="80">type here!!
+    </textarea><br /><br />
+    Choose a Username: <input type="text" name="username" size ="50" maxlength="10" title="Enter you Name here" /><br /><br />
+    Choose a Password: <input type="password" name ="password"/>
+    <br />
+    <p>Upload your Image</p> <input type="file" name ="picture" /><br /><br />
+    <input type="submit" value ="Create Profile!"/>
+</form>
+</body>
+</html>
